@@ -82,7 +82,9 @@ the user's written text, `references.bib` and figures.
 Every number matches `numbers.json`; every figure/table referenced in the text;
 abstract states the result; no causal language for associational findings; every
 `\cite` resolves; within the length limit; template rules followed. Report issues
-by section — don't rewrite the user's text unasked.
+by section — don't rewrite the user's text unasked. For a full peer review
+(three reviewers, missing related work, tracking fixes across revisions) suggest
+`/review-paper`.
 
 `project.md`: `stage: 7`; Log entry with the paper path. Remind the user to check the
 course's rules on AI assistance and disclose it if required.

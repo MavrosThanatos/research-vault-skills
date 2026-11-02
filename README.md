@@ -14,6 +14,7 @@ knowledge base are the same set of Markdown files.
 | 5 | Carry out the study | `/run-study` | Runs the pre-planned analysis in a reproducible Jupyter notebook (download, check, clean, analyse, save figures and numbers); moves heavy GPU work to Colab. |
 | 6 | Document results | `/document-results` | Writes a results note (numbers, figures, hypothesis decision, limitations, how to reproduce) plus a half-page plain-language summary. |
 | 7 | Write the paper | `/write-paper` | Builds a detailed IMRaD outline with paragraph starters and verified citations for you to write yourself. IEEE LaTeX by default, switchable (e.g. Springer LNCS). |
+| 7+ | Review the paper | `/review-paper` | Venue-style peer review: three reviewers (methods & evidence, related work & novelty, clarity & format) plus a meta-review with a ranked "fix these first" list. Flags missing related work with verified links, never edits the paper, and tracks which points were fixed on re-runs. |
 | any | Read | `/add-source` | Saves a paper, PDF, dataset or web page as a source note with verified metadata, a summary and the author's intention. |
 
 Ground rules the skills follow:
@@ -24,7 +25,8 @@ Ground rules the skills follow:
 - **The student decides.** Skills propose options with trade-offs and a
   recommendation; you confirm every choice.
 - **You write the thinking.** Skills never write claims into `notes/` or
-  `arguments/`, and they outline the paper rather than writing its prose.
+  `arguments/`, they outline the paper rather than writing its prose, and the reviewer
+  gives pointers instead of editing.
 
 ## Vault layout
 
